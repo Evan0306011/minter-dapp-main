@@ -34,6 +34,9 @@
     "update_royalty_address": "node utils/nftport/updateContract.js -u royalty_address",
     "update_base_uri": "node utils/nftport/updateContract.js -u base_uri",
     "update_prereveal_token_uri": "node utils/nftport/updateContract.js -u prereveal_token_uri",
+    "mint": "node utils/nftport/mint %npm_config_start% %npm_config_end%",
+    "reveal": "node utils/nftport/revealNFTs %npm_config_start% %npm_config_end%",
+    "check_txns": "node utils/nftport/checkTxns %npm_config_dir%",
     "⏬⏬⏬": "FOR MAC USERS: Replace %npm_config_xyz% with $npm_config_start ⏬⏬⏬",
     "refresh_os": "node utils/functions/refreshOpensea %npm_config_start% %npm_config_end%"
   },
