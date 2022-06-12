@@ -78,7 +78,8 @@ const GENERIC = true; // Set to true if you want to upload generic metas and rev
 const GENERIC_TITLE =CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
 const GENERIC_DESCRIPTION = "The Rebel Kangaroos are ready to takeover Australia"; // Replace with what you want the generic descriptions to say.
 const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafybeibli6bf46ylbrd3kujkf6k6f32cszax5u7bi57iwyf5gvnfe62h2i,https://ipfs.io/ipfs/bafybeifprqy2idtuxy3et6debyq2nckjotwwql4l2svdhzjjl2ohs4b3wi"; // Replace with your generic image that will display for all NFTs pre-reveal.
-
+const REVEAL_PROMPT = true;
+const INTERVAL = 900000;
 // Automatically set contract address if deployed using the deployContract.js script
 try {
   const rawContractData = fs.readFileSync(
