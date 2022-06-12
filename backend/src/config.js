@@ -14,7 +14,7 @@ const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 1000,
+    growEditionSizeTo: 100,
     layersOrder: [
       { name: "Backgrounds" },
       { name: "Base character" },
@@ -52,6 +52,7 @@ const CHAIN = 'polygon'; // only rinkeby or polygon
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
 const CONTRACT_NAME = 'The_Rebel_Kangaroos_V3';
 const CONTRACT_SYMBOL = 'TRK';
+const CONTRACT_TYPE = "erc721";
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0xcAB29063C6E014249e453f82fdD2d7D54Ce5e7F1';
 const TREASURY_ADDRESS = '0xcAB29063C6E014249e453f82fdD2d7D54Ce5e7F1';
@@ -179,6 +180,7 @@ module.exports = {
   AUTH,
   LIMIT,
   CONTRACT_ADDRESS,
+  CONTRACT_TYPE,
   OWNER_ADDRESS,
   TREASURY_ADDRESS,
   CHAIN,
